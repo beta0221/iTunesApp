@@ -10,13 +10,32 @@ import UIKit
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
-
+    var audioPlayerWindow: UIWindow?
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-        guard let _ = (scene as? UIWindowScene) else { return }
+        guard let windowScene = (scene as? UIWindowScene) else { return }
+        
+        setAudioPlayerWindow(in: windowScene)
+        
+    }
+    
+    func setAudioPlayerWindow(in scene: UIWindowScene) {
+        
+        guard let audioPlayerVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "AudioPlayerVC") as? AudioPlayerVC else { return }
+        
+        let audioPlayerWindow = UIWindow(windowScene: scene)
+        audioPlayerWindow.rootViewController = audioPlayerVC
+        audioPlayerWindow.windowLevel = UIWindow.Level.statusBar + 1
+        audioPlayerWindow.isHidden = false
+        
+        let bound = UIScreen.main.bounds
+        let height:CGFloat = 120.0
+        audioPlayerWindow.frame = CGRect(x: 0, y: bound.height - height, width: bound.width, height: height)
+        
+        self.audioPlayerWindow = audioPlayerWindow
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

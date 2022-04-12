@@ -9,21 +9,41 @@
 /* Begin PBXBuildFile section */
 		95E80EE92803DB87001B55AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E80EE82803DB87001B55AD /* AppDelegate.swift */; };
 		95E80EEB2803DB87001B55AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E80EEA2803DB87001B55AD /* SceneDelegate.swift */; };
-		95E80EED2803DB87001B55AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E80EEC2803DB87001B55AD /* ViewController.swift */; };
+		95E80EED2803DB87001B55AD /* HomePageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E80EEC2803DB87001B55AD /* HomePageVC.swift */; };
 		95E80EF02803DB87001B55AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95E80EEE2803DB87001B55AD /* Main.storyboard */; };
 		95E80EF22803DB88001B55AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95E80EF12803DB88001B55AD /* Assets.xcassets */; };
 		95E80EF52803DB88001B55AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95E80EF32803DB88001B55AD /* LaunchScreen.storyboard */; };
+		95E80EFD2803DCE2001B55AD /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E80EFC2803DCE2001B55AD /* Endpoint.swift */; };
+		95E80EFF2803DD06001B55AD /* ITunesEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E80EFE2803DD06001B55AD /* ITunesEndpoint.swift */; };
+		95E80F012803DD1A001B55AD /* ITunesModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E80F002803DD1A001B55AD /* ITunesModels.swift */; };
+		95E80F032803DD2F001B55AD /* NetworkEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E80F022803DD2F001B55AD /* NetworkEngine.swift */; };
+		95E80F052803E1A2001B55AD /* DetailPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E80F042803E1A2001B55AD /* DetailPageVC.swift */; };
+		95E80F072803E815001B55AD /* TrackTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E80F062803E815001B55AD /* TrackTVC.swift */; };
+		95E80F092803EBBA001B55AD /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E80F082803EBBA001B55AD /* UIImageViewExtension.swift */; };
+		95E80F0B2803F0EA001B55AD /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E80F0A2803F0EA001B55AD /* Spinner.swift */; };
+		95E80F0D28040541001B55AD /* AudioPlayerWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E80F0C28040541001B55AD /* AudioPlayerWindow.swift */; };
+		95E80F0F280405BB001B55AD /* AudioPlayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E80F0E280405BB001B55AD /* AudioPlayerVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		95E80EE52803DB87001B55AD /* iTunesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTunesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95E80EE82803DB87001B55AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95E80EEA2803DB87001B55AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		95E80EEC2803DB87001B55AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		95E80EEC2803DB87001B55AD /* HomePageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageVC.swift; sourceTree = "<group>"; };
 		95E80EEF2803DB87001B55AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		95E80EF12803DB88001B55AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95E80EF42803DB88001B55AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95E80EF62803DB88001B55AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95E80EFC2803DCE2001B55AD /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		95E80EFE2803DD06001B55AD /* ITunesEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITunesEndpoint.swift; sourceTree = "<group>"; };
+		95E80F002803DD1A001B55AD /* ITunesModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITunesModels.swift; sourceTree = "<group>"; };
+		95E80F022803DD2F001B55AD /* NetworkEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkEngine.swift; sourceTree = "<group>"; };
+		95E80F042803E1A2001B55AD /* DetailPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPageVC.swift; sourceTree = "<group>"; };
+		95E80F062803E815001B55AD /* TrackTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackTVC.swift; sourceTree = "<group>"; };
+		95E80F082803EBBA001B55AD /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		95E80F0A2803F0EA001B55AD /* Spinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spinner.swift; sourceTree = "<group>"; };
+		95E80F0C28040541001B55AD /* AudioPlayerWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerWindow.swift; sourceTree = "<group>"; };
+		95E80F0E280405BB001B55AD /* AudioPlayerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +78,21 @@
 			children = (
 				95E80EE82803DB87001B55AD /* AppDelegate.swift */,
 				95E80EEA2803DB87001B55AD /* SceneDelegate.swift */,
-				95E80EEC2803DB87001B55AD /* ViewController.swift */,
+				95E80EEC2803DB87001B55AD /* HomePageVC.swift */,
 				95E80EEE2803DB87001B55AD /* Main.storyboard */,
 				95E80EF12803DB88001B55AD /* Assets.xcassets */,
 				95E80EF32803DB88001B55AD /* LaunchScreen.storyboard */,
 				95E80EF62803DB88001B55AD /* Info.plist */,
+				95E80EFC2803DCE2001B55AD /* Endpoint.swift */,
+				95E80EFE2803DD06001B55AD /* ITunesEndpoint.swift */,
+				95E80F002803DD1A001B55AD /* ITunesModels.swift */,
+				95E80F022803DD2F001B55AD /* NetworkEngine.swift */,
+				95E80F042803E1A2001B55AD /* DetailPageVC.swift */,
+				95E80F062803E815001B55AD /* TrackTVC.swift */,
+				95E80F082803EBBA001B55AD /* UIImageViewExtension.swift */,
+				95E80F0A2803F0EA001B55AD /* Spinner.swift */,
+				95E80F0C28040541001B55AD /* AudioPlayerWindow.swift */,
+				95E80F0E280405BB001B55AD /* AudioPlayerVC.swift */,
 			);
 			path = iTunesApp;
 			sourceTree = "<group>";
@@ -137,8 +167,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95E80EED2803DB87001B55AD /* ViewController.swift in Sources */,
+				95E80F0B2803F0EA001B55AD /* Spinner.swift in Sources */,
+				95E80F092803EBBA001B55AD /* UIImageViewExtension.swift in Sources */,
+				95E80EFF2803DD06001B55AD /* ITunesEndpoint.swift in Sources */,
+				95E80F012803DD1A001B55AD /* ITunesModels.swift in Sources */,
+				95E80F0F280405BB001B55AD /* AudioPlayerVC.swift in Sources */,
+				95E80F032803DD2F001B55AD /* NetworkEngine.swift in Sources */,
+				95E80EED2803DB87001B55AD /* HomePageVC.swift in Sources */,
+				95E80F072803E815001B55AD /* TrackTVC.swift in Sources */,
 				95E80EE92803DB87001B55AD /* AppDelegate.swift in Sources */,
+				95E80EFD2803DCE2001B55AD /* Endpoint.swift in Sources */,
+				95E80F0D28040541001B55AD /* AudioPlayerWindow.swift in Sources */,
+				95E80F052803E1A2001B55AD /* DetailPageVC.swift in Sources */,
 				95E80EEB2803DB87001B55AD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
