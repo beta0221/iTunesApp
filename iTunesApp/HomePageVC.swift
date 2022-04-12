@@ -71,6 +71,10 @@ class HomePageVC: UIViewController {
         let vc = segue.destination as? DetailPageVC
         guard let indexPath = tableView.indexPathForSelectedRow else { return }
         
+        if(!tracks.indices.contains(indexPath.row)){
+            return
+        }
+        
         let track = tracks[indexPath.row]
         vc?.track = track
         

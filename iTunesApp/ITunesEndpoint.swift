@@ -46,7 +46,7 @@ enum ITunesEndpoint:Endpoint{
             let limit:Int = 10
             offset = limit * page - limit
             return [
-                URLQueryItem(name: "term", value: term),
+                URLQueryItem(name: "term", value: term.lowercased()),
                 URLQueryItem(name: "offset", value: offset.description),
                 URLQueryItem(name: "limit", value: limit.description)
             ]
